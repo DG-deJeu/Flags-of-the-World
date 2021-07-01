@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Flags_of_the_World</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <StartupObject>Flags_of_the_World.App</StartupObject>
+    <ApplicationIcon></ApplicationIcon>
+    <Win32Resource />
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="60px-Flag_of_Barbados.svg.png" />
+    <None Remove="AfricaFlag.png" />
+    <None Remove="AsiaFlag.png" />
+    <None Remove="EuropeFlag.png" />
+    <None Remove="FlagsOfTheWorld_Flag_European Union.png" />
+    <None Remove="FlagsOfTheWorld_Flag_United Nations.png" />
+    <None Remove="FlagsOfTheWorld_Flag_United States.png" />
+    <None Remove="NorthAmericaFlag.png" />
+    <None Remove="OceaniaFlag.png" />
+    <None Remove="SouthAmericaFlag.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="AfricaFlag.png" />
+    <Resource Include="AsiaFlag.png" />
+    <Resource Include="EuropeFlag.png" />
+    <Resource Include="FlagsOfTheWorld_Flag_European Union.png" />
+    <Resource Include="FlagsOfTheWorld_Flag_United Nations.png" />
+    <Resource Include="FlagsOfTheWorld_Flag_United States.png" />
+    <Resource Include="NorthAmericaFlag.png" />
+    <Resource Include="OceaniaFlag.png" />
+    <Resource Include="SouthAmericaFlag.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

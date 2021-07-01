@@ -1,0 +1,1123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AfricaFlag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AfricaFlag.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AsiaFlag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AsiaFlag.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EuropeFlag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EuropeFlag.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Afghanistan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Afghanistan.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_African_Union" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_African Union.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Alabama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Alabama.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Alaska" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Alaska.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Albania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Albania.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Algeria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Algeria.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_American_Samoa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_American Samoa.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Andorra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Andorra.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Angola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Angola.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Anguilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Anguilla.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Antarctica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Antarctica.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Antiqua_and_Barbuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Antiqua and Barbuda.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Arab_League" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Arab League.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Argentina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Argentina.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Arizona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Arizona.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Arkansas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Arkansas.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Armenia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Armenia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Aruba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Aruba.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Association_of_Southeast_Asian_Nations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Association of Southeast Asian Nations.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Australia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Australia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Austria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Austria.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Azerbaijan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Azerbaijan.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Bahamas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Bahamas.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Bahrain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Bahrain.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Bangladesh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Bangladesh.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Barbados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Barbados.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Belarus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Belarus.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Belgium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Belgium.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Belize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Belize.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Benin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Benin.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Bermuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Bermuda.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Bhutan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Bhutan.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Bolivia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Bolivia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Bosnia_and_Herzegovina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Bosnia and Herzegovina.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Botswana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Botswana.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Bouvet_Island" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Bouvet Island.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Brazil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Brazil.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_British_Indian_Ocean_Territory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_British Indian Ocean Territory.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_British_Virgin_Islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_British Virgin Islands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Brunei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Brunei.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Bulgaria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Bulgaria.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Burkina_Faso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Burkina Faso.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Burundi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Burundi.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_California" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_California.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Cambodia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Cambodia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Cameroon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Cameroon.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Canada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Canada.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Cape_Verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Cape Verde.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Caribbean_Community" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Caribbean Community.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Caribbean_Netherlands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Caribbean Netherlands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Cayman_Islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Cayman Islands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Central_African_Republic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Central African Republic.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Central_American_Integration_System" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Central American Integration System.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Chad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Chad.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Chile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Chile.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_China" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_China.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Christmas_Island" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Christmas Island.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Cocos_Islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Cocos Islands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Collective_Security_Treaty_Organization" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Collective Security Treaty Organization.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Colombia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Colombia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Colorado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Colorado.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_CommonWealth_of_Independant_States" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_CommonWealth of Independant States.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Commonwealth_of_Nations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Commonwealth of Nations.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Comoros" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Comoros.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Connecticut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Connecticut.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Cook_Islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Cook Islands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Costa_Rica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Costa Rica.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Croatia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Croatia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Cuba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Cuba.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Curaçao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Curaçao.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Cyprus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Cyprus.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Czechia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Czechia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Côte_d_Ivoire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Côte d'Ivoire.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Delaware" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Delaware.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Denmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Denmark.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Djibouti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Djibouti.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Dominica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Dominica.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Dominican_Republic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Dominican Republic.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_DR_Congo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_DR Congo.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_East_African_Community" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_East African Community.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Ecuador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Ecuador.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Egypt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Egypt.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_El_Salvador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_El Salvador.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_England" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_England.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Equatorial_Guinea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Equatorial Guinea.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Eritrea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Eritrea.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Estonia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Estonia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Eswatini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Eswatini.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Ethiopia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Ethiopia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Eurasian_Economic_Union" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Eurasian Economic Union.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_European_Union" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_European Union.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Falkland_Islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Falkland Islands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Faroe_Islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Faroe Islands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Fiji" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Fiji.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Finland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Finland.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Florida" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Florida.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_France" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_France.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_French_Guiana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_French Guiana.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_French_Polynesia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_French Polynesia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_French_Southern_and_Antarctic_Lands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_French Southern and Antarctic Lands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Gabon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Gabon.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Gambia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Gambia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Georgia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Georgia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_GeorgiaUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_GeorgiaUS.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Germany" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Germany.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Ghana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Ghana.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Gibraltar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Gibraltar.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Greece" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Greece.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Greenland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Greenland.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Grenada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Grenada.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Guadeloupe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Guadeloupe.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Guam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Guam.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Guatemala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Guatemala.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Guernsey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Guernsey.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Guinea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Guinea.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Guinea_Bissau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Guinea-Bissau.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Gulf_Cooperation_Council" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Gulf Cooperation Council.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Guyana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Guyana.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Haiti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Haiti.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Hawaii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Hawaii.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Heard_Island_and_McDonald_Islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Heard Island and McDonald Islands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Honduras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Honduras.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Hong_Kong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Hong Kong.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Hungary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Hungary.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Iceland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Iceland.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Idaho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Idaho.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Illinois" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Illinois.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_India" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_India.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Indiana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Indiana.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Indonesia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Indonesia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Iowa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Iowa.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Iran" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Iran.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Iraq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Iraq.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Ireland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Ireland.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Isle_of_Man" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Isle of Man.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Isreal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Isreal.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Italy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Italy.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Jamaica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Jamaica.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Japan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Japan.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Jersey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Jersey.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Jordan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Jordan.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Kansas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Kansas.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Kazakhstan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Kazakhstan.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Kentucky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Kentucky.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Kenya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Kenya.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Kiribati" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Kiribati.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Kosovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Kosovo.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Kuwait" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Kuwait.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Kyrgyzstan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Kyrgyzstan.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Laos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Laos.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Latvia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Latvia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Lebanon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Lebanon.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Lesotho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Lesotho.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Liberia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Liberia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Libya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Libya.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Liechtenstein" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Liechtenstein.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Lithuania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Lithuania.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Louisiana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Louisiana.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Luxembourg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Luxembourg.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Macau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Macau.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Madagascar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Madagascar.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Maine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Maine.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Malawi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Malawi.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Malaysia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Malaysia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Maldives" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Maldives.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Mali" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Mali.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Malta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Malta.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Marshall_Islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Marshall Islands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Martinique" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Martinique.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Maryland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Maryland.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Massachusetts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Massachusetts.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Mauritania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Mauritania.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Mauritius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Mauritius.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Mayotte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Mayotte.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Mexico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Mexico.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Michigan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Michigan.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Micronesia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Micronesia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Minnesota" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Minnesota.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Mississippi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Mississippi.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Missouri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Missouri.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Moldova" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Moldova.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Monaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Monaco.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Mongolia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Mongolia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Montana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Montana.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Montenegro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Montenegro.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Montserrat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Montserrat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Morocco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Morocco.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Mozambique" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Mozambique.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Myanmar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Myanmar.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Namibia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Namibia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_NATO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_NATO.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Nauru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Nauru.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Nebraska" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Nebraska.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Nepal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Nepal.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Netherlands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Netherlands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Nevada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Nevada.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_New_Caledonia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_New Caledonia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_New_Hampshire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_New Hampshire.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_New_Jersey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_New Jersey.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_New_Mexico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_New Mexico.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_New_York" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_New York.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_New_Zealand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_New Zealand.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Nicaragua" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Nicaragua.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Niger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Niger.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Nigeria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Nigeria.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Niue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Niue.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Nordic_Council" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Nordic Council.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Norfolk_Island" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Norfolk Island.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Northern_Ireland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Northern Ireland.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Northern_Mariana_Islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Northern Mariana Islands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_North_Carolina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_North Carolina.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_North_Dakota" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_North Dakota.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_North_Korea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_North Korea.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_North_Macedonia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_North Macedonia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Norway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Norway.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Ohio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Ohio.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Oklahoma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Oklahoma.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Oman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Oman.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_OPEC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_OPEC.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Oregon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Oregon.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Organisation_internationale_de_la_Francophonie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Organisation internationale de la Francophonie.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Organisation_of_Islamic_Cooperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Organisation of Islamic Cooperation.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Organization_of_American_States" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Organization of American States.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Pacific_Community" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Pacific Community.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Pakistan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Pakistan.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Palau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Palau.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Palestine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Palestine.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Panama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Panama.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Papua_New_Guinea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Papua New Guinea.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Paraguay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Paraguay.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Pennsylvania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Pennsylvania.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Peru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Peru.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Philippines" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Philippines.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Pitcairn_Islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Pitcairn Islands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Poland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Poland.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Portugal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Portugal.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Puerto_Rico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Puerto Rico.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Qatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Qatar.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Republic_of_the_Congo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Republic of the Congo.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Rhode_Island" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Rhode Island.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Romania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Romania.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Russia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Russia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Rwanda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Rwanda.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Réunion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Réunion.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Saint_Barthélemy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Saint Barthélemy.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Saint_Helena__Ascension_and_Tristan_da_Cunha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Saint Helena, Ascension and Tristan da Cunha.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Saint_Kitts_and_Nevis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Saint Kitts and Nevis.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Saint_Lucia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Saint Lucia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Saint_Martin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Saint Martin.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Saint_Pierre_and_Miquelon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Saint Pierre and Miquelon.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Saint_Vincent_and_the_Grenadines" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Saint Vincent and the Grenadines.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Samoa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Samoa.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_San_Marino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_San Marino.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Saudi_Arabia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Saudi Arabia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Scotland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Scotland.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Senegal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Senegal.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Serbia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Serbia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Seychelles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Seychelles.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Sierra_Leone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Sierra Leone.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Singapore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Singapore.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Sint_Maarten" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Sint Maarten.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Slovakia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Slovakia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Slovenia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Slovenia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Solomon_Islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Solomon Islands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Somalia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Somalia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Southern_African_Development_Community" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Southern African Development Community.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_South_Africa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_South Africa.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_South_Carolina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_South Carolina.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_South_Dakota" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_South Dakota.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_South_Georgia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_South Georgia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_South_Korea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_South Korea.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_South_Sudan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_South Sudan.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Spain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Spain.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Sri_Lanka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Sri Lanka.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Sudan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Sudan.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Suriname" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Suriname.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Svalbard_and_Jan_Mayen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Svalbard and Jan Mayen.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Sweden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Sweden.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Switzerland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Switzerland.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Syria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Syria.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_São_Tomé_and_Príncipe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_São Tomé and Príncipe.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Taiwan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Taiwan.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Tajikistan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Tajikistan.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Tanzania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Tanzania.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Tennessee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Tennessee.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Texas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Texas.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Thailand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Thailand.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Timor_Leste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Timor-Leste.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Togo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Togo.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Tokelau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Tokelau.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Tonga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Tonga.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Trinidad_and_Tobago" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Trinidad and Tobago.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Tunisia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Tunisia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Turkey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Turkey.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Turkic_Council" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Turkic Council.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Turkmenistan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Turkmenistan.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Turks_and_Caicos_Islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Turks and Caicos Islands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Tuvalu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Tuvalu.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Uganda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Uganda.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Ukraine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Ukraine.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Union_of_South_American_Nations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Union of South American Nations.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_United_Arab_Emirates" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_United Arab Emirates.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_United_Kingdom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_United Kingdom.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_United_Nations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_United Nations.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_United_States" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_United States.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_United_States_Minor_Outlying_Islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_United States Minor Outlying Islands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_United_States_Virgin_Islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_United States Virgin Islands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Uruguay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Uruguay.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Utah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Utah.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Uzbekistan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Uzbekistan.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Vanuatu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Vanuatu.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Vatican_City" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Vatican City.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Venezuela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Venezuela.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Vermont" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Vermont.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Vietnam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Vietnam.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Virginia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Virginia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Wales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Wales.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Wallis_and_Futuna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Wallis and Futuna.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Washington" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Washington.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Western_Sahara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Western Sahara.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_West_Virginia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_West Virginia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Wisconsin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Wisconsin.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Wyoming" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Wyoming.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Yemen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Yemen.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Zambia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Zambia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Zimbabwe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Zimbabwe.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlagsOfTheWorld_Flag_Åland_Islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagsOfTheWorld_Flag_Åland Islands.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NorthAmericaFlag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NorthAmericaFlag.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OceaniaFlag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OceaniaFlag.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SouthAmericaFlag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SouthAmericaFlag.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
